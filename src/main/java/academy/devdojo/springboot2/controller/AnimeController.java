@@ -37,6 +37,10 @@ public class AnimeController {
         // Forma 2 de enviar http status code
         return ResponseEntity.ok(animeService.findByIdOrThrowBadRequestException(id));
     }
+    @GetMapping(path = "/find")
+    public ResponseEntity<List<Anime>> findByName(@RequestParam String name){
+        return ResponseEntity.ok(animeService.findByName(name));
+    }
     @PostMapping
     public ResponseEntity<Anime> save(@RequestBody AnimePostRequestBody animePostRequestBody){
         return new ResponseEntity<>(animeService.save(animePostRequestBody), HttpStatus.CREATED);
