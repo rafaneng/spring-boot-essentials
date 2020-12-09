@@ -5,4 +5,4 @@ Framework que possibilita a criação de aplicações *stand alone,* ou seja, ap
 Saiba mais em: [https://spring.io/projects/spring-boot](https://spring.io/projects/spring-boot)
 
 ---
-[Volte ao início](../README.md)
+[Volte ao início](../)
