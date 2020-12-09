@@ -7,4 +7,4 @@ Meus resumos de estudo do curso de Spring Boot desenvolvido pela DevDojo. O Curs
 Mais informações sobre a DevDojo: [http://devdojo.academy](http://devdojo.academy/)
 
 ## Meus resumos
-[Spring Boot 2 Essentials 01 - O que é Spring Boot](./resources/resumo_01.md)
+1. [Spring Boot 2 Essentials 01 - O que é Spring Boot](./resources/resumo_01.md)
