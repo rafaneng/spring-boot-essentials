@@ -8,3 +8,8 @@ Mais informações sobre a DevDojo: [http://devdojo.academy](http://devdojo.acad
 
 ## Meus resumos
 1. [Spring Boot 2 Essentials 01 - O que é Spring Boot](./resources/resumo_01.md)
+2. Resumo do 2 ao 23 estão sendo formatados.
+24. [Spring Boot 2 Essentials 24 - WebMvcConfigurer (Como podemos trocar o tamanho padrão das páginas)](./resources/resumo_24.md)
+24. [Spring Boot 2 Essentials 25 - Sorting, Log SQL (Utilizando o sort do Pageable e inserindo o SQL executado pelo Hibernate no formato do log do Spring.)](./resources/resumo_25.md)
+24. [Spring Boot 2 Essentials 26 - RestTemplate getForObject e getForEntity (Consumindo APIs externas)](./resources/resumo_26.md)
+24. [Spring Boot 2 Essentials 27 - RestTemplate exchange (Convertendo resposta de API em lista)](./resources/resumo_27.md)
