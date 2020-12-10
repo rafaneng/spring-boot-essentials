@@ -28,10 +28,11 @@ public class AnimeController {
 
     @GetMapping
     public ResponseEntity<Page<Anime>> list(Pageable pageable){
-        log.info(dateUtil.formatLocalDateTimeToDatabaseStyle(LocalDateTime.now()));
-
-        // Forma 1 de enviar http status code
         return new ResponseEntity<>(animeService.listAll(pageable), HttpStatus.OK);
+    }
+    @GetMapping(path = "/all")
+    public ResponseEntity<List<Anime>> listAll(){
+        return new ResponseEntity<>(animeService.listAllNonPageable(), HttpStatus.OK);
     }
     @GetMapping(path = "/{id}")
     public ResponseEntity<Anime> findById(@PathVariable long id){
